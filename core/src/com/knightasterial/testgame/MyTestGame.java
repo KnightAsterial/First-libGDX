@@ -66,7 +66,7 @@ public class MyTestGame extends ApplicationAdapter {
 	public void render () {
 						  //r  g   b    a
 		Gdx.gl.glClearColor(0, 0, 0.2f, 1);
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT); // This cryptic line clears the screen
 		
 		camera.update();
 		
