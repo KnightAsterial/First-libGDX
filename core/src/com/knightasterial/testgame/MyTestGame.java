@@ -99,11 +99,11 @@ public class MyTestGame extends ApplicationAdapter {
 		
 		//getDeltaTime() returns the time passed between the last and the current frame in seconds
 		if(Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
-			bucket.x -= 200 * Gdx.graphics.getDeltaTime();
+			bucket.x -= 400 * Gdx.graphics.getDeltaTime();
 		}
 		
 		if(Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-			bucket.x += 200 * Gdx.graphics.getDeltaTime();
+			bucket.x += 400 * Gdx.graphics.getDeltaTime();
 		}
 		
 		//makes sure bucket doesn't go off screen
